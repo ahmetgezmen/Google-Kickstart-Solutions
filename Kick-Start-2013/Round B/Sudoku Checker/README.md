@@ -33,3 +33,10 @@
 #We're leaving the main loop
 #
 # Fourth
+#We form 4 nested loops.
+#We give them v, k, m, t values from outside to inside.
+#Now, the reason we do them is to check the little squares with n side lengths here.
+#The second row loop allows us to split small squares into rows.
+#The 3rd row loop allows us to divide the smaller ones in these rows.
+#The 4th loop is needed to separate the columns of the squares in the 2nd loop.
+#The first row loop is added to the event in the innermost loop, making all events go column by column.
