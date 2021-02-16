@@ -12,7 +12,7 @@
 #Let's create a for loop to get the inputs of the 2D array. And let's add input to add data to this array. 
 #Let's set the loop to rotate the square of the value N    because as it says in the question, every 4 sides are n2.
 #To split these initial value rows into columns, we need to add .split() to input() .
-# Let's get the 2d list by adding this entry we have prepared to array.append().
+#Let's get the 2d list by adding this entry we have prepared to array.append().
 #
 # Second
 #Here we create the variable x, which will be useful below.
