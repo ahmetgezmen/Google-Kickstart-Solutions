@@ -5,7 +5,7 @@ def solve(n):
     isMatch = "false"
     for dd in array:
         for hh in dd:
-            if 0<int(hh)<10:
+            if 0<int(hh)<(1+(n*n)):
                 continue
             else:
                 isMatch = "true"
@@ -50,5 +50,5 @@ c=0
 while(t>0):
     c+=1
     n = int(input())
-    print(f"Case # {c} : {solve(int(n))}")
-    t-=1
+    print(f"Case #{c}: {solve(int(n))}")
+    t-=1 
