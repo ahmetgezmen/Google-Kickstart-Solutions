@@ -1,14 +1,14 @@
 #   Sudoku 
-#
+
 # First
-#Since the initial t value tells us how many inputs we have, we loop that value. 
+* Since the initial t value tells us how many inputs we have, we loop that value. 
 #
 # Second 
-#We ensure that the desired value of n is obtained in the loop, we set the sentence that can give the desired output and add the Solution function to it.
+* We ensure that the desired value of n is obtained in the loop, we set the sentence that can give the desired output and add the Solution function to it.
 #
 # Now let's write the function 
 # First
-#Let's create a value for the 2 dimensional list to be entered. 
+* Let's create a value for the 2 dimensional list to be entered. 
 #Let's create a for loop to get the inputs of the 2D array. Let's add input to add data to this array. 
 #Let's set the loop to rotate the square of the value N    because as it says in the question, every 4 sides are n2.
 #In order to split these initial value rows into columns, we need to add .split() to input() .
