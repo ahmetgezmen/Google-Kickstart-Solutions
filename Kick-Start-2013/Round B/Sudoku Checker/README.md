@@ -1,4 +1,4 @@
-# Sudoku 
+#   Sudoku 
 #
 # First
 #Since the initial t value tells us how many inputs we have, we loop that value. 
@@ -15,21 +15,21 @@
 #Let's get the 2d list by adding this entry we have prepared to array.append().
 #
 # Second
-#Here we create the variable x, which will be useful below.
+#Here we create the variable isMatch, which will be useful below.
 #To understand that the numbers in the 2D list are sudoku appropriate, we create 2 nested loops.
-#In condition blocks, we stipulate that the value must be between 0 and (n ^ 2) +1, otherwise the variable X will be "true".
+#In condition blocks, we stipulate that the value must be between 0 and (n ^ 2) +1, otherwise the variable isMatch will be "true".
 #(n ^ 2) +1 says that the value of n in the question varies between 3 and 6, so the numbers that will be inside can also go from 1 to 10 or from 1 to 36
 #
-# Third
+ Third
 #Now we continue from row 12 for row column control.
 #We open a loop to rotate each row or column.
 #We create hbox and vbox lists for rows and columns 
 #We create the array2d-list to check inside small squares with N sides.
 #We open a loop to extract the data in the row and column.
-#Here we add the data to the x and y lists.
+#Here we add the data to the hbox and vbox lists.
 #We get out of the inner loop and create another loop. Here we are looking at each variable to control the numbers in the row and column.
 #Then, with the condition block, we check if the variable is more than 1 in the list, 
-#if it is more than 1, we ask X to return "true" and break its loop.
+#if it is more than 1, we ask isMatch to return "true" and break its loop.
 #We're leaving the main loop
 #
 # Fourth
@@ -40,3 +40,12 @@
 #The 3rd row loop allows us to divide the smaller ones in these rows.
 #The 4th loop is needed to separate the columns of the squares in the 2nd loop.
 #The first row loop is added to the event in the innermost loop, making all events go column by column.
+#Let's write the method of adding X to the 4th loop.
+#In the first part, we write [m + (k * n)].
+#This means that k is the row with little squares, m is the rows in the little squares, and n is the value to return in the loop.
+#In section 2, we write [t + (k * n)].
+#This means t is the lines inside the little squares, k is the row containing the little squares.
+#In this way, loop 1 will rotate for small square columns.
+#And we're going to divide the n ^ 2-sided square into n-sided squares. Of course, these sections will be found in the 2nd cycle.
+# Fifth
+#
