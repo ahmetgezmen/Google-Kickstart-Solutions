@@ -37,7 +37,7 @@
 
 * Sample
 
-###Input
+### Input
  	 
 * 3
 * 3
