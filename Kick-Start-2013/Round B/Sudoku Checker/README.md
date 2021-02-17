@@ -9,14 +9,14 @@
 # Now let's write the function 
 # First
 #Let's create a value for the 2 dimensional list to be entered. 
-#Let's create a for loop to get the inputs of the 2D array. And let's add input to add data to this array. 
+#Let's create a for loop to get the inputs of the 2D array. Let's add input to add data to this array. 
 #Let's set the loop to rotate the square of the value N    because as it says in the question, every 4 sides are n2.
-#To split these initial value rows into columns, we need to add .split() to input() .
-#Let's get the 2d list by adding this entry we have prepared to array.append().
+#In order to split these initial value rows into columns, we need to add .split() to input() .
+#Let's get the 2d list by adding this entry which we have prepared to array.append().
 #
 # Second
 #Here we create the variable isMatch, which will be useful below.
-#To understand that the numbers in the 2D list are sudoku appropriate, we create 2 nested loops.
+#In order to understand that the numbers in the 2D list are sudoku appropriate, we create 2 nested loops.
 #In condition blocks, we stipulate that the value must be between 0 and (n ^ 2) +1, otherwise the variable isMatch will be "true".
 #(n ^ 2) +1 says that the value of n in the question varies between 3 and 6, so the numbers that will be inside can also go from 1 to 10 or from 1 to 36
 #
@@ -54,7 +54,7 @@ We're leaving the main loop
 #We open a loop to check the information about the little squares that will be shown to us in the second loop. 
 #We are looking at how many of these values are there. 
 #If there is more than 1, we return the value of isMatch as "true" in the condition blocks. 
-#And at the end we clear the list to use
+#At the end we clear the list to use
 #
 # Finally.
 #We're going out of all loops. 
