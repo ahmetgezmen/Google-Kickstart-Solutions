@@ -20,17 +20,18 @@
 #In condition blocks, we stipulate that the value must be between 0 and (n ^ 2) +1, otherwise the variable isMatch will be "true".
 #(n ^ 2) +1 says that the value of n in the question varies between 3 and 6, so the numbers that will be inside can also go from 1 to 10 or from 1 to 36
 #
- Third
+# Third
 #Now we continue from row 12 for row column control.
 #We open a loop to rotate each row or column.
-#We create hbox and vbox lists for rows and columns 
-#We create the array2d-list to check inside small squares with N sides.
+#We create hbox and vbox lists for rows and columns
+#We create the list array2d to check inside small squares with N sides.
 #We open a loop to extract the data in the row and column.
 #Here we add the data to the hbox and vbox lists.
-#We get out of the inner loop and create another loop. Here we are looking at each variable to control the numbers in the row and column.
-#Then, with the condition block, we check if the variable is more than 1 in the list, 
-#if it is more than 1, we ask isMatch to return "true" and break its loop.
-#We're leaving the main loop
+#We exit the inner loop and create another loop. Here we are looking at each variable to control the numbers in the row and column.
+#Then we check with the condition block whether the variable is more than 1 in the list,
+If more than # 1, we ask isMatch to return "true" and break its loop.
+#Then we clear the hbox and vbox to use again
+We're leaving the main loop
 #
 # Fourth
 #We form 4 nested loops.
@@ -47,5 +48,14 @@
 #This means t is the lines inside the little squares, k is the row containing the little squares.
 #In this way, loop 1 will rotate for small square columns.
 #And we're going to divide the n ^ 2-sided square into n-sided squares. Of course, these sections will be found in the 2nd cycle.
+#
 # Fifth
 #
+#We open a loop to check the information about the little squares that will be shown to us in the second loop. 
+#We are looking at how many of these values are there. 
+#If there is more than 1, we return the value of isMatch as "true" in the condition blocks. 
+#And at the end we clear the list to use
+#
+# Finally.
+#We're going out of all loops. 
+#And with conditional blocks, if IsMatch is "false" then we write "true" "No" if "Yes".
