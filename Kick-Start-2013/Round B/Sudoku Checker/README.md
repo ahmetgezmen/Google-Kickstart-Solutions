@@ -29,9 +29,9 @@
 #Here we add the data to the hbox and vbox lists.
 #We exit the inner loop and create another loop. Here we are looking at each variable to control the numbers in the row and column.
 #Then we check with the condition block whether the variable is more than 1 in the list,
-If more than # 1, we ask isMatch to return "true" and break its loop.
+#If more than # 1, we ask isMatch to return "true" and break its loop.
 #Then we clear the hbox and vbox to use again
-We're leaving the main loop
+#We're leaving the main loop
 #
 # Fourth
 #We form 4 nested loops.
@@ -57,5 +57,4 @@ We're leaving the main loop
 #At the end we clear the list to use
 #
 # Finally.
-#We're going out of all loops. 
-#And with conditional blocks, if IsMatch is "false" then we write "true" "No" if "Yes".
+# We go out of all loops and output with conditional blocks according to the IsMatch value.
